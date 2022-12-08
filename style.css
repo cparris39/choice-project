@@ -1,0 +1,196 @@
+.food{
+  background-color: #d7a06e;
+  color: ###38200a;
+  border: 10px solid #38200a;
+  margin: 20px;
+  padding: 20px;
+}
+a:link, a:visited {
+  background-color: white;
+  color: #04AA6D;
+  border: 2px solid black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: black;
+  color: white;
+  font-family: fantasy;
+  <span style="cursor:pointer">pointer</span><br>
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #white;
+}
+  .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+  background-color: #8088ff;
+  border: 2px solid #000000;
+  font-size: 20px;
+}
+  div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.wrapper {
+  height: 20vh;
+   display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+  width: 26ch;
+  animation: typing 3s steps(30), blink .6s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid;
+  font-family: ;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+  .wrapper1 {
+  height: 20vh;
+   display: grid;
+  place-items: center;
+}
+
+.typing-demo1 {
+  width: 12ch;
+  animation: typing 3s steps(30), blink .6s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid;
+  font-family: ;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+    .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+  div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+  . image2 {
+    
+  }
